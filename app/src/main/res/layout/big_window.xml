@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/big_window_layout"
+    >
+
+    <Button
+        android:layout_marginTop="200dip"
+        android:layout_marginLeft="150dip"
+        android:id="@+id/fanhui"
+        android:layout_width="@dimen/bigwidth"
+        android:layout_height="@dimen/bigheight"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/bigtextsize"
+        android:background="@drawable/shape"
+        android:text="@string/rt"
+        />
+
+    <Button
+        android:id="@+id/app"
+        android:layout_width="@dimen/bigwidth"
+        android:layout_height="@dimen/bigheight"
+        android:layout_above="@+id/music"
+        android:layout_alignLeft="@+id/fanhui"
+        android:background="@drawable/shape"
+        android:textSize="@dimen/bigtextsize"
+        android:text="@string/appone" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="@dimen/bigwidth"
+        android:layout_height="@dimen/bigheight"
+        android:layout_alignBaseline="@+id/fanhui"
+        android:layout_alignBottom="@+id/fanhui"
+        android:layout_toLeftOf="@+id/app"
+        android:textSize="@dimen/bigtextsize"
+        android:text="@string/mu"
+        android:background="@drawable/shape"
+        />
+
+    <Button
+        android:id="@+id/SMS"
+        android:layout_width="@dimen/bigwidth"
+        android:layout_height="@dimen/bigheight"
+        android:layout_below="@+id/fanhui"
+        android:layout_toRightOf="@+id/music"
+        android:textSize="@dimen/bigtextsize"
+        android:background="@drawable/shape"
+        android:text="@string/sendsms" />
+
+    <Button
+        android:id="@+id/Phone"
+        android:layout_width="@dimen/bigwidth"
+        android:layout_height="@dimen/bigheight"
+        android:layout_alignBaseline="@+id/fanhui"
+        android:layout_alignBottom="@+id/fanhui"
+        android:textSize="@dimen/bigtextsize"
+        android:layout_toRightOf="@+id/fanhui"
+        android:background="@drawable/shape"
+        android:text="@string/callphone" />
+
+</RelativeLayout>

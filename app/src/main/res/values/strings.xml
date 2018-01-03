@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jump</string>
+    <string name="callphone">打电话</string>
+    <string name="sendsms">发短信</string>
+    <string name="rt">返回</string>
+    <string name="appone">应用</string>
+    <string name="mu">音乐</string>
+</resources>

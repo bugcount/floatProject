@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigwidth">30dp</dimen>
+    <dimen name="bigheight">30dp</dimen>
+    <dimen name="bigtextsize">8sp</dimen>
+</resources>
